@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 5px;
+    display: inline-block;
+    padding: 10px;
+}
+
+nav li a {
+    color: rgb(133, 30, 30);
+    font-size: 20px;
+}
+
+body {
+
+    text-align: center;
+}
+
+img {
+    width: 565px;
+    text-align: center;
+}
+
+.banner {
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    background-image: url(../img/imagemgeral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.banner h1 {
+    color: rgb(202, 7, 7);
+
+}
+
+.banner p {
+    color: aliceblue;
+    padding: 280px;
+    font-size: 23px;
+}
+
+.secao-temp {
+    margin: 12px;
+    padding: 0px;
+    background-color: whitesmoke;
+    border: 3px solid gainsboro;
+    border-radius: 10px;
+}
+
+.secao-titulo {
+    margin-top: 25px;
+    margin: 25px;
+    font-size: 19px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(192, 0, 0);
+    text-align: center;
+}
+
+.secao-sinopse {
+    margin: 25px;
+    padding: 0px;
+    color: rgb(191, 1, 1);
+    text-align: center;
+    font-size: 20px;
+}
+
+.secao-descricao {
+    margin: 25px;
+    padding: 0px;
+    text-align: center;
+    font-size: 21px;
+    text-align: center;
+}
+
+.secao-descricao .secao-sinopse .secao-temp .secao-titulo {
+    margin-bottom: 10px;
+}
